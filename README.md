@@ -17,20 +17,14 @@ A seen_ids set is maintained throughout the run to deduplicate videos that may a
 # Output
 The script produces two files:
 
-cbse_cc_videos.csv — UTF-8 encoded CSV with columns: Grade, Subject, Video Title, Video Link, License
-cbse_cc_videos.xlsx — Excel version of the same dataset
+* cbse_cc_videos.csv — UTF-8 encoded CSV with columns: Grade, Subject, Video Title, Video Link, License
+* cbse_cc_videos.xlsx — Excel version of the same dataset
 
 # How to Run
 
-Clone the repository and navigate to the project folder.
-Install dependencies:
+* pip install google-api-python-client pandas openpyxl python-dotenv
 
-bash pip install google-api-python-client pandas openpyxl python-dotenv
+* Create a .env file in the project folder:
+  YOUTUBE_API_KEY=your_api_key_here
 
-Create a .env file in the project folder:
-
-   YOUTUBE_API_KEY=your_api_key_here
-
-Run the script:
-
-bash python app.py
+* bash python app.py
