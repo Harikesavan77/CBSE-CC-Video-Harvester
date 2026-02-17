@@ -28,3 +28,13 @@ The script produces two files:
   YOUTUBE_API_KEY=your_api_key_here
 
 * bash python app.py
+
+# Process Timeline
+## Process Timeline
+
+| Step | Detail |
+|---|---|
+| API setup | Created a Google Cloud project, enabled YouTube Data API v3, generated API key |
+| Development | Wrote and iteratively refined the Python script |
+| Execution | Script ran from 12:30 PM → 1:20 PM (50 minutes total, including quota errors and API key reset) |
+| Output | CSV and Excel files generated on completion |
